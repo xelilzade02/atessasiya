@@ -1,0 +1,41 @@
+body{
+    width:90%;
+    height:90vh;
+    background-image: url("./images/beautiful-golden-autumn-scenery-trees-golden-leaves-sunshine-scotland-united-kingdom-beautiful-golden-autumn-124278811.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-repeat: cover;
+    color:white;
+}
+
+.header{
+    margin:0;
+    display:flex;
+    justify-content: space-between;
+}
+
+.left-menu>p{
+    margin-top:0;
+    font-size:20px;
+}
+
+.right-menu{
+    margin-top:0px;
+    margin-right:-150px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: 20;
+}
+
+.right-menu>p{
+    margin-top: 0;
+    margin-left:10px;
+}
+
+.main>h1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
